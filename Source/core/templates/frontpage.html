@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome | {% endblock %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+
+<body>
+    {% block content %}
+    <div class="columns is-multiline mb-6">
+        <div class="column is-12 has-text-centered mt-6 mb-6">
+            <h2 class="is-size-3">Recently Added products</h2>
+        </div>
+
+        {% for product in newest_products %}
+        {% include 'product/parts/list_item.html' %}
+        {% endfor %}
+    </div>
+
+    
+    {% endblock content %}
+
+
+   
+</body>
+
+</html>
