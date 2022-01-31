@@ -1,0 +1,4 @@
+id,first_name,last_name,email,address,zipcode,place,phone,created_at,paid_amount
+1,jawad,ahmed,jawad@gmail.com,kohat,26000,pakistan,03119174048,2021-09-08 15:34:48.382169,70
+2,muhammad,anas,anas@gmail.com,kohat,34343,pakistan,33333425,2021-09-08 15:47:43.565981,100
+3,Danish,Khan,danish@gmail.com,karachi,35555,karachi,0234234423,2021-09-08 18:32:50.981621,447

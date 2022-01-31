@@ -1,0 +1,6 @@
+id,password,last_login,is_superuser,username,first_name,email,is_staff,is_active,date_joined,last_name
+1,pbkdf2_sha256$260000$d72XHYkWN3zIZAG9DeFm5f$Y1mg18RvxIonFdanl+w4S3PKENn0DMj0+ihRX1CQuVo=,31:31.2,1,admin,,admin@gmail.com,1,1,29:28.7,
+2,pbkdf2_sha256$260000$h5diBav7i3kyaaFtyJ0nMG$OlOu6SHf/Z++N44M3mze5xgLHUHTes+M2K5PS3m/Tpw=,33:29.8,0,JawadAhmed,,jawad@gmail.com,0,1,30:10.4,
+3,pbkdf2_sha256$260000$9yjyV90Pz933JE8h7ortyB$WYdi6O73N5QUXkL/ZWuBDlvzVRDz2FEpN0j2ANP3xjQ=,48:52.9,0,HammadSanni,,,0,1,21:11.8,
+4,pbkdf2_sha256$260000$YcD0M0QrqN3yzYQ1nMZFjZ$jekHF9Ia4PayrDAj0Tqi4M9VweE5q5Me4Z4/SsbGdls=,04:36.2,0,DanishKhan,,,0,1,04:35.6,
+5,pbkdf2_sha256$260000$8Z3Biw1QYLGt2oOKRKKgXE$/x2k6mbl4lBywznjYp2nLBWaJbsnNV6jNnBCRGA+0UA=,05:58.7,0,MuhammadAnas,,,0,1,05:58.2,
