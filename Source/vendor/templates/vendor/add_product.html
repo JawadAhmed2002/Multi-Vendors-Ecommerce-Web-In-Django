@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %}Add product | {% endblock %}
+
+{% block content %}
+<!-- <h1 class="title">Add product</h1> -->
+<style>
+    .title {
+        text-shadow: black;
+        text-align: center;
+        height: 30px;
+        background: -webkit-linear-gradient(left, #a9f0b8, #d9c7e2);
+        color: rgb(102, 96, 96);
+        font-weight: bold;
+        padding-bottom: 50px;
+        line-height: 80%;
+        margin-bottom: 30px;
+    }
+
+    .btnSubmit {
+        border: none;
+        border-radius: 1.5rem;
+        padding: 1%;
+        width: 20%;
+        cursor: pointer;
+        background: #0062cc;
+        color: #fff;
+        text-align: center;
+        margin-left: 800px;
+        margin-top: -300px;
+
+    }
+
+    .form-content {
+        padding: 5%;
+        border: 1px solid #ced4da;
+        margin-bottom: 2%;
+        margin-left: -100px;
+    }
+</style>
+<div class="title">
+    <h1>ADD PRODUCTS</h1>
+</div>
+
+<form method="post" action="." enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="form-content">
+        {{ form.as_p }}
+    </div>
+
+    <div class="field">
+        <button type="submit" class="btnSubmit">ADD</button>
+    </div>
+</form>
+{% endblock %}
